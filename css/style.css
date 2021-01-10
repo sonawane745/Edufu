@@ -1,0 +1,126 @@
+ html, body { overflow-x: hidden;  } 
+.main-header{
+    padding-top: 120px;
+    
+}
+.main-header .custom a.one, .now .one{
+    width: 156px;
+}
+.empty {
+    height: 35px;
+    background-color:  #cce2f9;
+}
+form{
+    background-color: #cce2f9;
+    padding: 64px;
+}
+footer.main-footer{
+   
+   
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+aside.footer-widget .social img{
+width: 20px;
+height: auto;
+float: right;
+margin-right: 20px;
+}
+aside.footer-widget p{
+   
+    font-weight: 400;
+   
+}
+
+
+section.copy{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    border-top: 2px solid silver;
+    text-align: center;
+}
+section.copy p{
+    margin: 0px;
+    text-align: center;
+}
+#my-nav .navbar-nav .nav-item.active a{
+    border-bottom: 3px solid black;
+}
+#my-nav .navbar-nav .nav-item a.nav-link{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+.nav-item a.btn{
+    background-color: #cce2f9;
+}
+.custom{
+    text-align: center;
+}
+a.two{
+    width: 156px;
+    border-radius: 7px;
+    color: #006cff;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.they{
+    text-align: center;
+    color: #0c244c;
+}
+img.client{
+    height: 67px;
+}
+.main-content-one p img.img-fluid,.main-content-two p img.img-fluid{
+    width: 27px;
+
+
+}
+.three{
+    background-color: #006cff;
+    padding: 20px 20px;
+    border-radius: 15px;
+    color: white;
+}
+.main-content-one h2, .main-content-two h2 {
+    padding-top: 75px;
+}
+.main-content-four .four p.enrollone{
+    padding: 0px 112px;
+    text-align: center;
+}
+.main-content-four .four h1.enroll{
+    text-align: center;
+}
+.contact .school{
+    text-align: center;
+}
+.contact .school .can{
+    background-color: silver;
+    border-radius: 0px;
+}
+.contact .school .inst{
+    border-radius: 0px;
+}
+.footer-widget a.mobile{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-widget .social,a.mobile,img {
+        float: left;
+    
+    }
+    
+    
+}
+    @media only screen and (max-width: 600px){
+    .main-content-four .four p.enrollone{ 
+        
+         padding: 0px;
+       
+     } 
+  }
+ 
